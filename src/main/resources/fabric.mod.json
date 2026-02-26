@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "testcoremod",
+    "version": "${version}",
+    "name": "TestCoreMod",
+    "description": "A lightweight sample mod to test the PocketUICore v1.6.0 UI framework.",
+    "authors": ["Uipg9"],
+    "contact": {
+        "homepage": "https://github.com/Uipg9"
+    },
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": ["com.testcoremod.SampleModClient"]
+    },
+    "depends": {
+        "fabricloader": ">=0.18.0",
+        "minecraft": ">=1.21.11",
+        "java": ">=21",
+        "fabric-api": "*",
+        "pocketuicore": ">=1.5.0"
+    }
+}
